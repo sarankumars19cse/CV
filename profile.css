@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.10)),url("picture/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -moz-background-size:cover;
+}
+.body a{
+    color: #f9f9f9;
+}
+body{
+    background-color: #fafafa;
+    background-image: url("https://www.transparenttextures.com/patterns/redox-02.png");
+}
+nav div ul li{
+    border-radius: 15px;
+}
+.nav1{
+    background-image: linear-gradient(to right top, #2a6a2a, #2f6735, #36653e, #3c6146, #445e4c);
+    font-family: 'Alegreya SC', serif;
+}
+.nav-item:hover{
+    background-color: #f9f9f967;
+    color: black;
+}
+.profile{
+    padding-top: 10%;
+    margin-left: 15%;
+}
+.nameCollege{
+    margin-top: 15%;
+    text-align: center;
+    color: white;
+}
+.name{
+    font-family: 'Podkova', serif;
+    font-size: 400%;
+}
+.college{
+    font-family: 'Podkova', serif;
+    margin-top: 10%;
+}
+.about{
+    margin:5% 0 5% 0;
+}
+.aboutme{
+    font-family: 'Volkhov', serif;
+    text-align: center;
+}
+.info{
+    margin-left: 10%;
+}
+.info p{
+    margin-top: 5%;
+    font-family: 'Gelasio', serif;
+    font-family: 'Volkhov', serif;
+}
+.about div ul{
+    margin: 6% 10% 0 20%;
+}
+.about div ul li:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.about div ul li{
+    margin-top: 8%;
+    font-family: 'Gelasio', serif;
+    list-style-type: none;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+.tool-tip li{
+    box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+    -moz-box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+}
+.tool-text{
+    color: white;
+    visibility: hidden;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+.tool-tip:hover .tool-text{
+    visibility: visible;
+}
+.qualification{
+    padding-left: 3%;
+    background-color: #faebf2;
+    background-image: url("https://www.transparenttextures.com/patterns/old-wall.png");
+
+}
+.sslc{
+    margin-right: 50%;
+    border: rgb(3, 100, 36) 2px solid;
+    cursor: pointer;
+}
+.complete{
+    font-weight: 500;
+}
+.sslc:hover{
+    margin-right: 52%;
+}
+.hsc{
+    margin-right: 50%;
+    border: rgb(3, 100, 36) 2px solid;
+    cursor: pointer;
+} 
+.hsc:hover{
+    margin-right: 60%;
+} 
+.be{
+    margin-right: 50%;
+    border: rgb(3, 100, 36) 2px solid;
+    cursor: pointer;
+} 
+.be:hover{
+    margin-right: 55%;
+}
+.pgmLanguage{
+    margin-right: 50%;
+    border: rgb(3, 100, 36) 2px solid;
+    cursor: pointer;
+}
+.ppt{
+    list-style-type: none;
+    background-image: linear-gradient(to right top, #2a6a2a, #2f6735, #36653e, #3c6146, #445e4c);
+}
+/* .projects{
+    padding-left: 3%;
+} */
+.projects div div ul{
+    list-style-type: none;
+}
+.complaint{
+    transition: transform .2s;
+    background-color: white;
+}
+.complaint:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.complaintCon{
+    text-align: center;
+}
+.complaintDiv{
+    border: black 1px solid;
+    border-radius: 8px;
+    box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+    -moz-box-shadow: 10px 9px 17px -1px rgba(0,0,0,0.83);
+}
+.contact{
+    margin-top: 5%;
+    font-family: 'Playfair Display', serif;
+}
+@media (min-width:420px){
+    .bikes{
+        margin-left: 40px;
+    }
+    .bike{
+        margin-left: 30px;
+    }
+    .hospital{
+        margin-top: 5%;
+    }
+    .con2{
+        margin-left: 3%;
+    }
+}
+@media(max-width:430px){
+    img{
+        border-radius: 20px;
+    }
+    .profile{
+        padding-top: 30%;
+        margin-left: 20%;
+    }
+    .image{
+        border-radius: 15px;
+        width: 150px;
+        margin: -15px 0 0 45px;
+    }
+    .nameCollege{
+        margin-top: 10%;
+    }
+    .name{
+        font-size: 300%;
+    }
+    .name,.college,button{
+        margin-top: 8%;
+    }
+    .tool-tip{
+        margin-left: -30%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .bike{
+        margin-top: 7%;
+        margin-right: 4%;
+    }
+    .con2{
+        margin-top: 3%;
+    }
+}
