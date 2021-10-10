@@ -164,9 +164,6 @@ nav div ul li{
     font-family: 'Playfair Display', serif;
 }
 @media (min-width:420px){
-    .bikes{
-        margin-left: 40px;
-    }
     .bike{
         margin-left: 30px;
     }
